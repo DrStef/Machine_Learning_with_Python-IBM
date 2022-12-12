@@ -6,7 +6,7 @@ Part of IBM Data Science Certificate.
 ### Simple Linear Regression
 
 We have downloaded a fuel consumption dataset, FuelConsumption.csv, which contains model-specific fuel consumption ratings and estimated carbon dioxide emissions for new light-duty vehicles for retail sale in Canada.
-Linear Regression for predicting: "CO2 Emission (g) v. Fuel consumption (l)"
+Linear Regression for predicting: "CO2 Emission (g) v. Fuel consumption (l)" <br>
 
 [Jupyter Notebook: Linear-Regression](ML0101EN-Reg-Simple-Linear-Regression-Co2_V2.ipynb)
 
@@ -14,7 +14,7 @@ Linear Regression for predicting: "CO2 Emission (g) v. Fuel consumption (l)"
 ### Multiple Linear regression 
 
 x = np.asanyarray(test[['ENGINESIZE','CYLINDERS','FUELCONSUMPTION_COMB']])
-y = np.asanyarray(test[['CO2EMISSIONS']])
+y = np.asanyarray(test[['CO2EMISSIONS']])<br>
 
 [Jupyter Notebook: Multiple-Linear-Regression](ML0101EN-Reg-Mulitple-Linear-Regression-Co2-v4.ipynb)
 
@@ -28,32 +28,32 @@ train_y = np.asanyarray(train[['CO2EMISSIONS']]) <br>
 
 
 ### Non-Linear Regression 
-china_gdp 1960 - 2014
+china_gdp 1960 - 2014  <br>
 
 [Jupyter Notebook: Non-Linear Regression](ML0101EN-Reg-NoneLinearRegression-V3.ipynb)
 
 
 ### Recommandation System 
 Create a recommendation system using Content Based filtering 
-Now, let's take a look at how to implement Content-Based or Item-Item recommendation systems. This technique attempts to figure out what a user's favourite aspects of an item is, and then recommends items that present those aspects. In our case, we're going to try to figure out the input's favorite genres from the movies and ratings given.
+Now, let's take a look at how to implement Content-Based or Item-Item recommendation systems. This technique attempts to figure out what a user's favourite aspects of an item is, and then recommends items that present those aspects. In our case, we're going to try to figure out the input's favorite genres from the movies and ratings given. <br>
 [Jupyter Notebook: Recommandation System I](ML0101EN-RecommendationSystem_Content Based Filtering-movies-V2.ipynb)
 
 ###  Recommendation system based on collaborative filtering
 Create recommendation system based on collaborative filtering
-The first technique we're going to take a look at is called Collaborative Filtering, which is also known as User-User Filtering. As hinted by its alternate name, this technique uses other users to recommend items to the input user. It attempts to find users that have similar preferences and opinions as the input and then recommends items that they have liked to the input. There are several methods of finding similar users (Even some making use of Machine Learning), and the one we will be using here is going to be based on the Pearson Correlation Function.
+The first technique we're going to take a look at is called Collaborative Filtering, which is also known as User-User Filtering. As hinted by its alternate name, this technique uses other users to recommend items to the input user. It attempts to find users that have similar preferences and opinions as the input and then recommends items that they have liked to the input. There are several methods of finding similar users (Even some making use of Machine Learning), and the one we will be using here is going to be based on the Pearson Correlation Function. <br>
 [Jupyter Notebook: Recommandation System II](ML0101EN-RecommendationSystem-Collaborative-Filtering-movies-V2.ipynb)
 
 
 
 ###  K-Nearest neighbors to classify data
 Imagine a telecommunications provider has segmented its customer base by service usage patterns, categorizing the customers into four groups. If demographic data can be used to predict group membership, the company can customize offers for individual prospective customers. It is a classification problem. That is, given the dataset, with predefined labels, we need to build a model to be used to predict class of a new or unknown case.
-Our objective is to build a classifier, to predict the class of unknown cases. We will use a specific type of classification called K nearest neighbour.
+Our objective is to build a classifier, to predict the class of unknown cases. We will use a specific type of classification called K nearest neighbour.<br>
 [Jupyter Notebook: K-Nearest Neighbour](ML0101EN-K-Nearest-Neighbors-Classification_Telecom_Customer_Category-V2.ipynb)
 
 
 ###  Customer Segmentation with K-Means
-Imagine that you have a customer dataset, and you need to apply customer segmentation on this historical data. Customer segmentation is the practice of partitioning a customer base into groups of individuals that have similar characteristics. It is a significant strategy as a business can target these specific groups of customers and effectively allocate marketing resources. For example, one group might contain customers who are high-profit and low-risk, that is, more likely to purchase products, or subscribe for a service. A business task is to retain those customers. Another group might include customers from non-profit organizations and so on.
-ML0101EN-K-Means-Clustering-Customer-Segmentation-V2.ipynb
+Imagine that you have a customer dataset, and you need to apply customer segmentation on this historical data. Customer segmentation is the practice of partitioning a customer base into groups of individuals that have similar characteristics. It is a significant strategy as a business can target these specific groups of customers and effectively allocate marketing resources. For example, one group might contain customers who are high-profit and low-risk, that is, more likely to purchase products, or subscribe for a service. A business task is to retain those customers. Another group might include customers from non-profit organizations and so on.<br>
+[Jupyter Notebook: K-Means Clustering](ML0101EN-K-Means-Clustering-Customer-Segmentation-V2.ipynb)
 
 ###  Hierarchical Clustering - Agglomerative
 
@@ -65,15 +65,15 @@ Our objective here, is to use clustering methods, to find the most distinctive c
 ###  Density-Based Clustering
 
 Weather Station Clustering using DBSCAN & scikit-learn.
-DBSCAN is especially very good for tasks like class identification in a spatial context. The wonderful attribute of DBSCAN algorithm is that it can find out any arbitrary shape cluster without getting affected by noise. For example, this following example cluster the location of weather stations in Canada. DBSCAN can be used here, for instance, to find the group of stations which show the same weather condition. As you can see, it not only finds different arbitrary shaped clusters, can find the denser part of data-centered samples by ignoring less-dense areas or noises.
-ML0101EN-Density-Based Clustering-Weather-V2.ipynb
+DBSCAN is especially very good for tasks like class identification in a spatial context. The wonderful attribute of DBSCAN algorithm is that it can find out any arbitrary shape cluster without getting affected by noise. For example, this following example cluster the location of weather stations in Canada. DBSCAN can be used here, for instance, to find the group of stations which show the same weather condition. As you can see, it not only finds different arbitrary shaped clusters, can find the denser part of data-centered samples by ignoring less-dense areas or noises.<br>
+[Jupyter Notebook: Density-Based Clustering](ML0101EN-Density-Based Clustering-Weather-V2.ipynb)
 
 
 ###  Logistic Regression with Python
 
 Load the Telco Churn data
-Telco Churn is a hypothetical data file that concerns a telecommunications company's efforts to reduce turnover in its customer base. Each case corresponds to a separate customer and it records various demographic and service usage information. Before you can work with the data, you must use the URL to get the ChurnData.csv.
-ML0101EN-Classification-Logistic-Regression-Customer_Churn_V3.ipynb
+Telco Churn is a hypothetical data file that concerns a telecommunications company's efforts to reduce turnover in its customer base. Each case corresponds to a separate customer and it records various demographic and service usage information. Before you can work with the data, you must use the URL to get the ChurnData.csv.<br>
+[Jupyter Notebook: Logistic Regression](ML0101EN-Classification-Logistic-Regression-Customer_Churn_V3.ipynb)
 
 
 
