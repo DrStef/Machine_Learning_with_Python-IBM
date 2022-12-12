@@ -23,7 +23,7 @@ y = np.asanyarray(test[['CO2EMISSIONS']])
 ### Polynomial Regression 
 
 train_x = np.asanyarray(train[['ENGINESIZE']])
-train_y = np.asanyarray(train[['CO2EMISSIONS']])
+train_y = np.asanyarray(train[['CO2EMISSIONS']]) <br>
 [Jupyter Notebook: Polynomial-Regression](ML0101EN-Reg-Polynomial-Regression-Co2-V2.ipynb)
 
 
@@ -36,20 +36,19 @@ china_gdp 1960 - 2014
 ### Recommandation System 
 Create a recommendation system using Content Based filtering 
 Now, let's take a look at how to implement Content-Based or Item-Item recommendation systems. This technique attempts to figure out what a user's favourite aspects of an item is, and then recommends items that present those aspects. In our case, we're going to try to figure out the input's favorite genres from the movies and ratings given.
-ML0101EN-RecommendationSystem_Content Based Filtering-movies-V2.ipynb
+[Jupyter Notebook: Recommandation System I](ML0101EN-RecommendationSystem_Content Based Filtering-movies-V2.ipynb)
 
 ###  Recommendation system based on collaborative filtering
 Create recommendation system based on collaborative filtering
 The first technique we're going to take a look at is called Collaborative Filtering, which is also known as User-User Filtering. As hinted by its alternate name, this technique uses other users to recommend items to the input user. It attempts to find users that have similar preferences and opinions as the input and then recommends items that they have liked to the input. There are several methods of finding similar users (Even some making use of Machine Learning), and the one we will be using here is going to be based on the Pearson Correlation Function.
-ML0101EN-RecommendationSystem-Collaborative-Filtering-movies-V2.ipynb
+[Jupyter Notebook: Recommandation System II](ML0101EN-RecommendationSystem-Collaborative-Filtering-movies-V2.ipynb)
 
 
 
-
-###  K Nearest neighbors to classify data
+###  K-Nearest neighbors to classify data
 Imagine a telecommunications provider has segmented its customer base by service usage patterns, categorizing the customers into four groups. If demographic data can be used to predict group membership, the company can customize offers for individual prospective customers. It is a classification problem. That is, given the dataset, with predefined labels, we need to build a model to be used to predict class of a new or unknown case.
 Our objective is to build a classifier, to predict the class of unknown cases. We will use a specific type of classification called K nearest neighbour.
-ML0101EN-K-Nearest-Neighbors-Classification_Telecom_Customer_Category-V2.ipynb
+[Jupyter Notebook: K-Nearest Neighbour](ML0101EN-K-Nearest-Neighbors-Classification_Telecom_Customer_Category-V2.ipynb)
 
 
 ###  Customer Segmentation with K-Means
@@ -61,7 +60,7 @@ ML0101EN-K-Means-Clustering-Customer-Segmentation-V2.ipynb
 Clustering on Vehicle dataset
 Imagine that an automobile manufacturer has developed prototypes for a new vehicle. Before introducing the new model into its range, the manufacturer wants to determine which existing vehicles on the market are most like the prototypes--that is, how vehicles can be grouped, which group is the most similar with the model, and therefore which models they will be competing against.
 Our objective here, is to use clustering methods, to find the most distinctive clusters of vehicles. It will summarize the existing vehicles and help manufacturers to make decision about the supply of new models.
-ML0101EN-Hierarchical-Clustering-Cars-V2.ipynb
+[Jupyter Notebook: Hierarchical Clustering](ML0101EN-Hierarchical-Clustering-Cars-V2.ipynb)
 
 ###  Density-Based Clustering
 
