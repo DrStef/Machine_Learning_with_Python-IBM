@@ -35,6 +35,15 @@ We fit a non-linear model to the datapoints corresponding to China's GDP from 19
 [Jupyter Notebook: Non-Linear Regression](ML0101EN-Reg-NoneLinearRegression-V3.ipynb)
 
 
+
+### SVM (Support Vector Machines)
+
+SVM (Support Vector Machines) is used to build and train a model using human cell records, and classify cells to whether the samples are benign or malignant (cancer).
+
+
+[Jupyter Notebook: SVM](ML0101EN-Classification-SVM-cancer-V2.ipynb)
+
+
 ### Recommandation System 
 Create a recommendation system using Content Based filtering 
 Now, let's take a look at how to implement Content-Based or Item-Item recommendation systems. This technique attempts to figure out what a user's favourite aspects of an item is, and then recommends items that present those aspects. In our case, we're going to try to figure out the input's favorite genres from the movies and ratings given. <br>
