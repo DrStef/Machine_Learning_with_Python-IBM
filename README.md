@@ -13,8 +13,8 @@ Linear Regression for predicting: "CO2 Emission (g) v. Fuel consumption (l)" <br
 
 ### Multiple Linear regression 
 
-x = np.asanyarray(test[['ENGINESIZE','CYLINDERS','FUELCONSUMPTION_COMB']])
-y = np.asanyarray(test[['CO2EMISSIONS']])<br>
+Fuel consumption dataset, FuelConsumption.csv, which contains model-specific fuel consumption ratings and estimated carbon dioxide emissions for new light-duty vehicles for retail sale in Canada. <br>
+Co2 emissions v. Engine size, number of cylinders, Fuel consumption "combined" (road, city). <br>  
 
 [Jupyter Notebook: Multiple-Linear-Regression](ML0101EN-Reg-Mulitple-Linear-Regression-Co2-v4.ipynb)
 
@@ -22,13 +22,15 @@ y = np.asanyarray(test[['CO2EMISSIONS']])<br>
 
 ### Polynomial Regression 
 
-train_x = np.asanyarray(train[['ENGINESIZE']])
-train_y = np.asanyarray(train[['CO2EMISSIONS']]) <br>
+Fuel consumption dataset, FuelConsumption.csv, which contains model-specific fuel consumption ratings and estimated carbon dioxide emissions for new light-duty vehicles for retail sale in Canada. <br>
+Co2 emissions v. Engine Size.  
+
 [Jupyter Notebook: Polynomial-Regression](ML0101EN-Reg-Polynomial-Regression-Co2-V2.ipynb)
 
 
 ### Non-Linear Regression 
-china_gdp 1960 - 2014  <br>
+Dataset: China_gdp 1960 - 2014  <br>
+We fit a non-linear model to the datapoints corresponding to China's GDP from 1960 to 2014.
 
 [Jupyter Notebook: Non-Linear Regression](ML0101EN-Reg-NoneLinearRegression-V3.ipynb)
 
