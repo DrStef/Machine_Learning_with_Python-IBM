@@ -85,7 +85,7 @@ DBSCAN is especially very good for tasks like class identification in a spatial 
 
 Load the Telco Churn data
 Telco Churn is a hypothetical data file that concerns a telecommunications company's efforts to reduce turnover in its customer base. Each case corresponds to a separate customer and it records various demographic and service usage information. Before you can work with the data, you must use the URL to get the ChurnData.csv.<br>
-[Jupyter Notebook: Logistic Regression](ML0101EN-Classification-Logistic-Regression-Customer_Churn_V3.ipynb)
+[Jupyter Notebook: Logistic Regression](ML0101EN-Classification-Logistic-Regression-Customer_Churn_V4.ipynb)
 
 
 
